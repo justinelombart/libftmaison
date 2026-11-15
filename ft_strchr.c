@@ -1,21 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlombart <jlombart@learner.42.tech>        +#+  +:+       +#+        */
+/*   By: justine.lombart <justine.lombart@leader    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 09:20:39 by jlombart          #+#    #+#             */
-/*   Updated: 2026/11/03 09:20:40 by jlombart         ###   ########.fr       */
+/*   Updated: 2026/11/13 11:41:24 by justine.lom      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strchr(const char *p, int c)
+char	*ft_strchr(const char *p, int c)
 {
-	int i;
-	unsigned char val;
+	int				i;
+	unsigned char	val;
 
 	i = 0;
 	if (!p)
