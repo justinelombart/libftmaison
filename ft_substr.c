@@ -6,7 +6,7 @@
 /*   By: justine.lombart <justine.lombart@leader    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 00:28:20 by justine.lom       #+#    #+#             */
-/*   Updated: 2026/11/13 10:44:11 by justine.lom      ###   ########.fr       */
+/*   Updated: 2026/11/18 10:39:19 by justine.lom      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		sub[l] = s[start + l];
 		l++;
 	}
-	printf("l end = %d", l);
 	sub[l] = '\0';
 	return (sub);
 }
