@@ -6,7 +6,7 @@
 /*   By: justine.lombart <justine.lombart@leader    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 00:28:03 by justine.lom       #+#    #+#             */
-/*   Updated: 2026/11/15 14:34:10 by justine.lom      ###   ########.fr       */
+/*   Updated: 2026/11/20 18:50:33 by justine.lom      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,7 +86,7 @@ char	**ft_split(char const *s, char c)
 			if (!final[index])
 			{
 				freeall(index, final);
-				return(NULL);
+				return (NULL);
 			}
 			index++;
 		}

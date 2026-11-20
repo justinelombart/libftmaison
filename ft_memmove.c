@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlombart <jlombart@learner.42.tech>        +#+  +:+       +#+        */
+/*   By: justine.lombart <justine.lombart@leader    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 09:19:06 by jlombart          #+#    #+#             */
-/*   Updated: 2026/11/03 09:19:07 by jlombart         ###   ########.fr       */
+/*   Updated: 2026/11/20 18:43:10 by justine.lom      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,17 @@
 
 void	*ft_memmove(void *dest, const void *src, size_t size )
 {
-	unsigned char *pdest;
-	unsigned char const *psrc;
+	unsigned char		*pdest;
+	unsigned char const	*psrc;
 
 	pdest = dest;
 	psrc = src;
-	while(size > 0)
+	while (size > 0)
 	{
 		size--;
 		pdest[size] = psrc[size];
 	}
-	return(dest);
+	return (dest);
 }
 
 /*#include <stdio.h>

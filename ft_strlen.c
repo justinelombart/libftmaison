@@ -6,7 +6,7 @@
 /*   By: justine.lombart <justine.lombart@leader    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 09:17:26 by jlombart          #+#    #+#             */
-/*   Updated: 2026/11/20 12:02:56 by justine.lom      ###   ########.fr       */
+/*   Updated: 2026/11/20 18:53:51 by justine.lom      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_strlen(const char *str)
 {
-	int	i; 
+	int	i;
 
 	i = 0;
 	while (str[i])

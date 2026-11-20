@@ -3,25 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlombart <jlombart@learner.42.tech>        +#+  +:+       +#+        */
+/*   By: justine.lombart <justine.lombart@leader    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 09:17:06 by jlombart          #+#    #+#             */
-/*   Updated: 2026/11/03 09:17:15 by jlombart         ###   ########.fr       */
+/*   Updated: 2026/11/20 18:52:12 by justine.lom      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "libft.h"
 
 int	ft_isprint(char c)
 {
 	if (c >= 32 && c <= 126)
-		return(1);
+		return (1);
 	return (0);
 }
 
 /*#include <stdio.h>
-
 int main(int argc, char** argv)
 {
 	if (argc != 2)

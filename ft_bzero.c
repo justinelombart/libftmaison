@@ -3,20 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlombart <jlombart@learner.42.tech>        +#+  +:+       +#+        */
+/*   By: justine.lombart <justine.lombart@leader    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 09:18:19 by jlombart          #+#    #+#             */
-/*   Updated: 2026/11/03 09:18:20 by jlombart         ###   ########.fr       */
+/*   Updated: 2026/11/20 18:32:48 by justine.lom      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
-//#include <stdio.h>
-void ft_bzero(void *p, size_t n)
+
+void	ft_bzero(void *p, size_t n)
 {
-	size_t	i;
-	unsigned char *ptr;
+	size_t			i;
+	unsigned char	*ptr;
 
 	ptr = p;
 	i = 0;

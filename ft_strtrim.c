@@ -6,7 +6,7 @@
 /*   By: justine.lombart <justine.lombart@leader    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 00:28:18 by justine.lom       #+#    #+#             */
-/*   Updated: 2026/11/15 14:28:17 by justine.lom      ###   ########.fr       */
+/*   Updated: 2026/11/20 18:44:15 by justine.lom      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	is_in(char c, char const *src)
 {
 	int	i;
-	
+
 	i = 0;
 	while (src[i])
 	{
@@ -29,21 +29,21 @@ int	is_in(char c, char const *src)
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	char	*trim;
-	int		i; 
+	int		i;
 	int		len;
 
 	if (!s1)
 		return (NULL);
 	len = ft_strlen(s1);
 	i = 0;
-	while(s1[i] && is_in(s1[i], set))
+	while (s1[i] && is_in(s1[i], set))
 		i++;
 	while (len > i && is_in(s1[len - 1], set))
 		len--;
 	len = len - i;
 	trim = malloc(sizeof (char) * len + 1);
 	if (!trim)
-		return(NULL);
+		return (NULL);
 	ft_strlcpy(trim, &s1[i], (size_t)len + 1);
 	return (trim);
 }
